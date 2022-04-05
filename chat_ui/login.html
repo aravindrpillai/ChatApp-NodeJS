@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<main class="content">
+ <div class="col-md-6 grid-margin stretch-card div-center">
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Welcome </h4>
+      <hr>
+      <form class="forms-sample">
+        <div class="form-group">
+          <label for="exampleInputUsername1">Username</label>
+          <input type="text" class="form-control" id="exampleInputUsername1" placeholder="john.honai">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label> <span class="pull-right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox"> Show Password<span>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <hr>
+        <button type="submit" class="btn btn-primary mr-2">Login</button>
+        <a>Sign Up Here</a>
+      </form>
+    </div>
+  </div>
+</div>
+           
+</main>
+
+<style type="text/css">
+body{margin-top:20px;}
+
+.div-center {
+    width: 600px;
+    height: 600px;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+
+.chat-online {
+    color: #34ce57
+}
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 600px;
+    overflow-y: scroll
+}
+
+.people {
+    max-height: 750px;
+    overflow-y: scroll
+}
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+</style>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
